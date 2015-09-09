@@ -62,16 +62,11 @@ int main(int argc, char **argv) {
              aflag, tflag, tvalue);  
   }
 
-  /*****************************************************/
-
-
   /********* Process non-option argv arguments *********/
 
   for (index = optind; index < argc; index++) { // Process non-option arguments
     printf ("Non-option argument \"%s\" @ argv[%d]\n", argv[index], index);
   }
-
-  /*****************************************************/
 
   return 0;
 }

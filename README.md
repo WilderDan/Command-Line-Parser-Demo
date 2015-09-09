@@ -1,3 +1,3 @@
 # Command-Line-Parser-Demo
-Simple Demo
+A simple demo of how you could parse command line options using the C language and libraries.
 
